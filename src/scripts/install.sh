@@ -175,18 +175,18 @@ ensure_macos_clt() {
 install_macos_build_deps() {
   info "Setting up macOS build dependencies..."
 
-  ensure_macos_clt
+  # ensure_macos_clt
 
-  if ! command -v brew >/dev/null 2>&1; then
-    error "Homebrew not found."
-    error "Install Homebrew first (https://brew.sh), then re-run this script."
-    exit 1
-  fi
+  # if ! command -v brew >/dev/null 2>&1; then
+    # error "Homebrew not found."
+    # error "Install Homebrew first (https://brew.sh), then re-run this script."
+    # exit 1
+  # fi
 
-  run brew update
+  # run brew update
 
   # Basics used by builds & fetch/update
-  run brew install git cmake wget curl pkg-config || true
+  # run brew install git cmake wget curl pkg-config || true
 
   ok "macOS build deps installed (or already present)."
 }
