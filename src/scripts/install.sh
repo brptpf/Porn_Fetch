@@ -361,7 +361,7 @@ install_uv_if_missing
 # ------------------------------------------------------------
 # Project fetch/update
 # ------------------------------------------------------------
-REPO_URL="https://github.com/EchterAlsFake/Porn_Fetch"
+REPO_URL="https://github.com/brptpf/Porn_Fetch"
 PROJECT_DIR="Porn_Fetch"
 
 if [[ -d "${PROJECT_DIR}/.git" ]]; then
